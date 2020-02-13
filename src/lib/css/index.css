@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+html,
+body {
+    font-size: 14px;
+    color: #333;
+}
+
+/* 清除表单默认样式 */
+
+input {
+    border: none;
+    outline: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0
+}
+
+
+.clear {
+    zoom: 1;
+}
+
+.text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text_m {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
